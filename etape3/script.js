@@ -1,15 +1,15 @@
 "use strict";
 const persons = [
     { nom: "nom-1", prenom: "prenom-1", points: 5 },
-    { nom: "nom-2", prenom: "prenom-2", points: 5 },
-    { nom: "nom-3", prenom: "prenom-3", points: 5 }
+    { nom: "nom-2", prenom: "prenom-2", points: 10 },
+    { nom: "nom-3", prenom: "prenom-3", points: 15 }
 ];
 
 
 let lignes = 0;
-Init()
+init()
 
-function Init() {
+function init() {
     // Ici on utilise une boucle for..of, vue dans le slide 45
     for (const person of persons) {
         doInsert(person.nom, person.prenom, person.points);
