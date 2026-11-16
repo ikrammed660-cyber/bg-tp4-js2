@@ -51,3 +51,38 @@ tfoot td {
     text-align: left;
     padding: 10px;
 }
+#container_btn{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:10px;
+}
+button{
+    border:none;
+    padding:8px 12px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.btn-add{
+    background-color:#28a745;
+}
+.btn-consol{
+    background-color:#f0ad4e;
+    margin-right:10px;
+}
+.btn-del{
+    background-color:#dc3545;
+}
+#row_count{
+    text-align:left;
+    font-weight:bold;
+}
+.total-cell{
+    text-align:left;
+    font-weight:bold;
+}
+.total-cell{
+    text-align:right;
+    font-weight:bold;
+}
